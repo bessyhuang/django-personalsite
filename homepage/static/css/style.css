@@ -1,0 +1,55 @@
+* {	padding: 0; margin: 0;}
+		body {	margin: 0px; background-color: #efefef; /*灰底*/
+				line-height: 20px; /*border: 1px dashed blue;*/ }
+		.content {	width:1000px; margin-left: auto; margin-right: auto; padding-bottom: 50px;
+					/*border: 1px dashed red;*/	}
+		#info {	margin-left: auto; margin-right: auto; /*border: 1px dashed green;*/
+				text-align: center;
+				box-shadow: 0 1px 5px 0 rgba(0,0,0,0.11), 0 2px 10px 0 rgba(0,0,0,0.11);
+				background-color: #ffffff;			 
+				margin-top: 30px; margin-bottom: 30px; }
+		.about-top { padding: 30px; /*border: 1px dashed blue;*/ }
+		#info img { border-radius: 120px; height: 120px; }
+		.img-bg{ height: 120px;	width: 120px; display: inline-block;
+  				box-shadow: 0 1px 5px 0 rgba(0,0,0,0.11), 0 2px 10px 0 rgba(0,0,0,0.11);
+  				border-radius: 50%;	}
+  		#about { padding-bottom:50px; }
+		#about > h2{ padding-top: 20px;	font-family: Microsoft JhengHei; }
+		#about > h3{ padding-top: 10px; font-family: Microsoft JhengHei; padding-bottom: 20px; }
+		#about > p{	font-family: Microsoft JhengHei; }
+		
+		.contact-head { /*border: 1px dashed red;*/ display: inline-block; 
+						float:center; padding-top:40px; }
+		#contact > div.contact-head > img { margin-left:-100px;	}
+		#contact > div.contact-head > h3 { font-family: Microsoft JhengHei; display: inline; 
+										position: absolute; padding-top: 20px;padding-left: 15px }
+		
+		.contact-col1{ font-family: Microsoft JhengHei;	width: 400px; text-align: right;
+			float: center;	padding-top: 10px;	/*border: 1px dashed green;*/display: inline-block;	}
+		.contact-col2{ font-family: Microsoft JhengHei;	width: 400px; text-align: left; 
+			padding-top: 10px;	/*border: 1px dashed green;*/ display: inline-block; }
+		#contact > div.contact-col1 > div > p { display: inline; }
+		#contact > div.contact-col2 > div > p { display: inline; }
+		.contact-col3{ 	width: 500px; text-align: center; /*border: 1px dashed blue;*/ display: inline-block; }
+		#icon-contact-01 { padding-top: 30px; padding-bottom: 40px;}
+		#icon-contact-01 > a > img{ border-radius: 20px; /*border: 1px dashed purple;*/
+			 width:50px; height:50px; padding-top: 0px; padding-left: 30px;padding-right: 30px;	}
+/**/
+		#hobby_favorite { height: auto; /*border: 1px dashed yellow;*/ padding-top: 40px;}
+
+		#hobby > h3{font-family: Microsoft JhengHei; display: inline; position: absolute; padding-top: 20px; padding-left: 15px;}
+		#hobby > div:nth-child(3) > p{font-family: Microsoft JhengHei; text-align: center;/*border: 1px dashed green;*/}
+
+
+		#favorite{display: inline-block; padding-top: 70px; padding-bottom: 70px; /*border: 1px dashed purple;*/ }
+		#favorite > h3{font-family: Microsoft JhengHei; display: inline; position: absolute; padding-top: 20px; padding-left: 15px;}
+		#favorite-content > p{font-family: Microsoft JhengHei;text-align: center;/*border: 1px dashed white;*/line-height: 30px; }
+/**/
+		#skills  { display: inline-block; padding-top: 40px; padding-bottom: 10px;/*border: 1px dashed purple;*/ }
+		#skills > h3 { font-family: Microsoft JhengHei; display: inline; position: absolute; padding-top: 20px; padding-left: 15px;	}
+		#skills > div > p{font-family: Microsoft JhengHei; text-align: center;/*border: 1px dashed green;*/ }
+
+
+		#projects { display: inline-block; padding-top: 70px; padding-bottom: 70px;/*border: 1px dashed yellow;*/ }
+		#projects > h3{font-family: Microsoft JhengHei; display: inline; position: absolute; padding-top: 20px; padding-left: 15px;}
+		#projects > div > p{font-family: Microsoft JhengHei; text-align: center;/*border: 1px dashed green;*/}
